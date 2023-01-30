@@ -19,3 +19,9 @@ Theres two scenarios when clicking this link:
 *In scenario 1*: I can edit the file and the changes are automatically synced to my Google Drive including to my local Google Drive installation. So that means git will see those changes and they can be pushed to this repo. 
 
 *In scenario 2*: Others don't have write permission so they need to make a copy in their own Google Drive (File -> Save a copy in Drive). 
+
+To make developing the exercise notebooks easier I have added a script 'clean_notebooks.py' does the following: 
+
+1. Find all notebooks that have '_working' in their name. 
+2. Saves a copy with output cells removed with '_working' removed from the name (test_notebook_working.ipynb --> test_notebook.ipynb)
+
